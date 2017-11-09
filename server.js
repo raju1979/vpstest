@@ -4,7 +4,7 @@ const app = express();
 app.set("port",(5000 || process.env.PORT));
 
 const cors = require('cors');
-app.use(cors());
+// app.use(cors());
 
 var bodyParser = require('body-parser')
 // parse application/x-www-form-urlencoded
